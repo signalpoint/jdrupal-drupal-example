@@ -1,5 +1,5 @@
-// Set the jDrupal sitePath.
-jDrupal.config('sitePath', 'http://localhost/drupalgap.web/8');
+// Set the Drupal site path.
+jDrupal.config('sitePath', 'http://example.com');
 
 // Connect to Drupal and say hello to the current user.
 jDrupal.connect().then(function() {
