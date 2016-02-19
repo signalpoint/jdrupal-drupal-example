@@ -1,0 +1,7 @@
+example.hello:
+  path: '/my-app'
+  defaults:
+    _controller: '\Drupal\example\Controller\ExampleController::myApp'
+    _title: 'My app'
+  requirements:
+    _permission: 'access content'

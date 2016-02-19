@@ -1,0 +1,7 @@
+name: Example
+type: module
+description: My awesome Drupal 8 module.
+core: 8.x
+package: Other
+dependencies:
+  - jdrupal
